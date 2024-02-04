@@ -82,11 +82,18 @@ span {
      color: blue;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 678px) {
      .container {
         /* flex-direction: row; */
         flex-direction: column;
         flex-wrap: wrap;
           
      }
+     .free{
+          width: 90%;
+     }
+     .essentail{
+          width: 90%;
+     }
 }
+
